@@ -1,0 +1,22 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background-color:red;
+}
+
+main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+  /*margin:0 3rem 0 3rem;*/ /*TRouBLe*/
+  width:80%;
+  margin:0 auto;
+  border:1px solid yellow;
+}
+
+section{
+  background-color:white;
+  border:1px solid black;
+} 
